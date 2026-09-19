@@ -12,7 +12,7 @@ entity Products:cuid,managed{
 entity Orders:cuid,managed{
     CustomerName : String(30);
     CustomerMobile : String(10);
-    StoreName : String(20);
+    StoreName : String(25);
     NetPrice : Decimal(9,2);
     Items : Composition of many OrderItems on Items.Order=$self;
 }
