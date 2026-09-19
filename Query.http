@@ -1,0 +1,21 @@
+GET http://localhost:4004/odata/v4/prd-mgmt-srv/$metadata
+
+### Get products
+
+GET http://localhost:4004/odata/v4/prd-mgmt-srv/Products
+
+### Create Products
+
+POST http://localhost:4004/odata/v4/prd-mgmt-srv/Products
+Content-Type: application/json
+
+   {
+      "Name": "Iphone18Pro",
+      "Price": "180000.00",
+      "Discount": 10,
+      "Stock": 100
+    }
+
+### Get Single product
+
+GET http://localhost:4004/odata/v4/prd-mgmt-srv/Products(3c5b84b1-ef14-4773-a6f6-7cde2a84399c)

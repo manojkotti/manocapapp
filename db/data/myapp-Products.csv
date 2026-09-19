@@ -1,0 +1,3 @@
+ID,Name,Price,Discount,Stock,createdAt,createdBy,modifiedAt,modifiedBy
+528936b8-d37a-4bab-9451-91aafaaca918,Name-528936,6655239.27,48,50,2007-04-26T00:00:00.000Z,createdBy.bc4o@example.com,2020-01-15T00:00:00.000Z,modifiedBy.bc4o@example.net
+27460116-6101-4eb4-b133-0e6d44b87694,Name-27460116,4466549.31,98,11,2015-01-12T00:00:00.000Z,createdBy.gckd0@example.net,2003-11-18T00:00:00.000Z,modifiedBy.gckd0@example.org
